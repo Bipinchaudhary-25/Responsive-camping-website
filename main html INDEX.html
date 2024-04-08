@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="C:\Users\dell\OneDrive\Desktop\project file\favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="C:\Users\dell\OneDrive\Desktop\project file\style.css">
+
+    <title>Responsive camping website</title>
+    <style>
+        .home__bird-2 {
+            position: absolute;
+            right: 0;
+            top: 10%;
+            width: 150px;
+        }
+        
+        .home__bird-1 {
+            position: absolute;
+            left: 0;
+            top: 15%;
+        }
+    </style>
+    <style>
+        .home__bird-1 {
+            animation: bipin 6s;
+            animation-fill-mode: forwards;
+        }
+        
+        @keyframes bipin {
+            form {
+                left: 0px;
+            }
+            to {
+                left: 300px;
+            }
+        }
+        
+        .home__bird-2 {
+            animation: bipin_ch 6s;
+            animation-fill-mode: forwards;
+        }
+        
+        @keyframes bipin_ch {
+            form {
+                right: 0px;
+            }
+            to {
+                right: 700px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="C:\Users\dell\OneDrive\Desktop\project file\logo.svg" alt="logo">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="C:\Users\dell\OneDrive\Desktop\project file\pricing.html" class="nav__link">Pricing</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="C:\Users\dell\OneDrive\Desktop\project file\event.html" class="nav__link">Events</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="C:\Users\dell\OneDrive\Desktop\project file\Contact.html" class="nav__link">Contact</a>
+                    </li>
+
+                </ul>
+
+                <div class="nav__buttons">
+                    <a href="C:\Users\dell\OneDrive\Desktop\project file\form.html" class="nav__button-link">Login</a>
+                    <a href="C:\Users\dell\OneDrive\Desktop\project file\Location.html" class="nav__button-ghost">Explore Locations</a>
+                </div>
+
+                <!--Close button-->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!--Toggle button-->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home">
+            <div class="home__container container">
+                <div class="home__container">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">
+                            A LIFETIME EXPERIENCE
+                        </h3>
+
+                        <h1 class="home__title">
+                            Camping <br> Events 
+                        </h1>
+
+                        <p class="home__description">
+                            Camp anywhere anytime without hassle and enjoy.
+                        </p>
+
+                        <a href="#" class="home__button">
+                        Get Started
+                    </a>
+                    </div>
+                    <img src="C:\Users\dell\OneDrive\Desktop\project file\bird-1.svg" alt="image" class="home__bird-1">
+                    <img src="C:\Users\dell\OneDrive\Desktop\project file\bird-2.svg" alt="image" class="home__bird-2">
+                </div>
+
+                <div class="home__images">
+                    <img src="C:\Users\dell\OneDrive\Desktop\project file\img-4.svg" alt="image" class="home__img-4">
+                    <img src="C:\Users\dell\OneDrive\Desktop\project file\img-3.svg" alt="image" class="home__img-3">
+                    <img src="C:\Users\dell\OneDrive\Desktop\project file\img-2.svg" alt="image" class="home__img-2">
+                    <img src="C:\Users\dell\OneDrive\Desktop\project file\img-1.svg" alt="image" class="home__img-1">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== GSAP ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="C:\Users\dell\OneDrive\Desktop\project file\Untitled index-5.js"></script>
+</body>
+
+</html>
